@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #111;
+    color: #fff;
+}
+
+header {
+    background-color: #222;
+    padding: 15px 20px;
+}
+
+.logo h1 {
+    color: #00ff00;
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#hero {
+    background: url('maze-hero.jpg') no-repeat center center/cover;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content h2 {
+    font-size: 48px;
+    color: #00ff00;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #00ff00;
+    color: #111;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#features ul {
+    list-style: none;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#features ul li {
+    margin: 10px 0;
+}
+
+#screenshots .screenshot-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#screenshots img {
+    max-width: 30%;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #222;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.social-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.social-links li a {
+    color: #00ff00;
+    text-decoration: none;
+}
